@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@android:color/white"
+    android:padding="10dp"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:src="@drawable/pig" />
+
+    <TextView
+        android:id="@+id/custom_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="infor Matriz"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="188dp"
+        android:background="@color/buttonsTime"
+        android:onClick="timeLineView"
+        android:text="Time Line"
+        android:textColor="@color/colorAccent" />
+
+</RelativeLayout>
